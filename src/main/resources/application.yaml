@@ -1,0 +1,10 @@
+server:
+  port: 8088
+
+#enable native profile to look the config within application instead of looking up in GIT
+
+spring:
+  profiles:
+    active: native #default is git
+
+
